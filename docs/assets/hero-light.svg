@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-label="Navixa — autonomous pharmaceutical-warehouse picking robot">
+<title>Navixa — autonomous pharmaceutical-warehouse picking robot</title>
+<style>
+.sans{font-family:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:"JetBrains Mono","Fira Code","Cascadia Code",Consolas,"Courier New",monospace}
+.fade{opacity:0;animation:fade .9s ease-out forwards}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.22,.7,.3,1) forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:0.12;transform:scale(1)}50%{opacity:0.26;transform:scale(1.08)}}
+@keyframes float{0%,100%{transform:translate(0,0)}25%{transform:translate(-14px,-18px)}50%{transform:translate(10px,-8px)}75%{transform:translate(-8px,14px)}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes shimmer{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;animation-iteration-count:1!important}}
+.d0{animation-delay:0.00s}.d1{animation-delay:0.12s}.d2{animation-delay:0.24s}.d3{animation-delay:0.36s}.d4{animation-delay:0.48s}.d5{animation-delay:0.60s}.d6{animation-delay:0.72s}.d7{animation-delay:0.84s}.d8{animation-delay:0.96s}.d9{animation-delay:1.08s}.d10{animation-delay:1.20s}.d11{animation-delay:1.32s}.d12{animation-delay:1.44s}.d13{animation-delay:1.56s}.d14{animation-delay:1.68s}.d15{animation-delay:1.80s}.d16{animation-delay:1.92s}.d17{animation-delay:2.04s}.d18{animation-delay:2.16s}.d19{animation-delay:2.28s}.d20{animation-delay:2.40s}.d21{animation-delay:2.52s}.d22{animation-delay:2.64s}.d23{animation-delay:2.76s}.d24{animation-delay:2.88s}.d25{animation-delay:3.00s}.d26{animation-delay:3.12s}.d27{animation-delay:3.24s}.d28{animation-delay:3.36s}.d29{animation-delay:3.48s}.d30{animation-delay:3.60s}.d31{animation-delay:3.72s}.d32{animation-delay:3.84s}.d33{animation-delay:3.96s}.d34{animation-delay:4.08s}.d35{animation-delay:4.20s}.d36{animation-delay:4.32s}.d37{animation-delay:4.44s}.d38{animation-delay:4.56s}.d39{animation-delay:4.68s}
+.orb1{animation:float 12s ease-in-out infinite}.orb2{animation:float 15s ease-in-out infinite reverse}
+.glow{animation:glow 5s ease-in-out infinite;transform-origin:0 20px}
+.typew{transform-origin:72px 0;transform:scaleX(0);animation:typew 2.8s steps(68,end) 1.2s forwards}
+@keyframes typew{to{transform:scaleX(1)}}
+.cursor{animation:cur 2.8s steps(68,end) 1.2s forwards,blink 1s step-end infinite}
+@keyframes cur{to{transform:translateX(571px)}}
+.bline{transform-origin:0 0;transform:scaleX(0);animation:grow 1.8s cubic-bezier(.22,.7,.3,1) .3s forwards}
+.lift{transform-origin:0 -20px;animation:lift 7s ease-in-out infinite}
+@keyframes lift{0%,15%{transform:scaleY(.42)}45%,60%{transform:scaleY(1)}90%,100%{transform:scaleY(.42)}}
+.plat{animation:plat 7s ease-in-out infinite}
+@keyframes plat{0%,15%{transform:translateY(58px)}45%,60%{transform:translateY(0)}90%,100%{transform:translateY(58px)}}
+.wheel{animation:spin 6s linear infinite}
+.sweep{animation:spin 2.4s linear infinite}
+.lidar-ring{animation:spin 30s linear infinite reverse}
+.cone{animation:cone 2.4s ease-in-out infinite}
+@keyframes cone{0%,100%{opacity:.08}50%{opacity:.22}}
+.scanline{animation:scan 2.4s ease-in-out infinite}
+@keyframes scan{0%,100%{transform:translateY(0)}50%{transform:translateY(46px)}}
+.hose{animation:dash 1.2s linear infinite}
+</style>
+<defs>
+<clipPath id="frame"><rect width="1200" height="440" rx="28"/></clipPath>
+<clipPath id="typeclip"><rect class="typew" x="72" y="318" width="575" height="24"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#dcd9d2" stroke-width="1"/></pattern>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#E85D00" stop-opacity=".55"/><stop offset="1" stop-color="#E85D00" stop-opacity="0"/></linearGradient>
+<linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#E85D00" stop-opacity="0"/><stop offset=".3" stop-color="#E85D00"/><stop offset=".7" stop-color="#FF6B00"/><stop offset="1" stop-color="#E85D00" stop-opacity="0"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<filter id="blur2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="440" fill="#F5F4F0"/>
+  <rect width="1200" height="440" fill="url(#grid)" opacity="0.9"/>
+  <circle class="orb1" cx="1050" cy="60" r="180" fill="#E85D00" opacity="0.12" filter="url(#blur)"/>
+  <circle class="orb2" cx="140" cy="440" r="150" fill="#FF6B00" opacity="0.12" filter="url(#blur)"/>
+
+  <text class="sans fade d1" x="72" y="86" font-size="11.5" font-weight="800" letter-spacing="4" fill="#E85D00">UTB 2026 GRADUATION DESIGN PROJECT · AUTONOMOUS MOBILE ROBOT</text>
+  <text class="sans rise d2" x="66" y="206" font-size="118" font-weight="900" letter-spacing="4" fill="#0E0E0E">NAVI<tspan fill="#E85D00">X</tspan>A</text>
+  <text class="sans fade d5" x="72" y="252" font-size="26" font-weight="500" fill="#555555">Navigate The Future</text>
+  <text class="sans fade d6" x="72" y="286" font-size="16" fill="#555555">Pharmaceutical-warehouse picking robot with a scissor lift and a suction head.</text>
+
+  <g clip-path="url(#typeclip)">
+    <text class="mono" x="72" y="334" font-size="14" fill="#FF6B00" textLength="571" lengthAdjust="spacingAndGlyphs">> one dashboard click: navigate, verify, lift, grip, deliver, return</text>
+  </g>
+  <rect class="cursor" x="72" y="321" width="8" height="17" fill="#FF6B00"/>
+  <g class="fade" style="animation-delay:1.00s"><rect x="72" y="376" width="110" height="30" rx="15" fill="#FFFFFF" stroke="#dcd9d2"/><text class="sans" x="127.0" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#0E0E0E">ROS 2 Humble</text></g><g class="fade" style="animation-delay:1.10s"><rect x="192" y="376" width="136" height="30" rx="15" fill="#FFFFFF" stroke="#dcd9d2"/><text class="sans" x="260.0" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#0E0E0E">Jetson Orin Nano</text></g><g class="fade" style="animation-delay:1.20s"><rect x="338" y="376" width="104" height="30" rx="15" fill="#FFFFFF" stroke="#dcd9d2"/><text class="sans" x="390.0" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#0E0E0E">Nav2 · SLAM</text></g><g class="fade" style="animation-delay:1.30s"><rect x="452" y="376" width="128" height="30" rx="15" fill="#FFFFFF" stroke="#dcd9d2"/><text class="sans" x="516.0" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#0E0E0E">YOLOv8 · OpenCV</text></g><g class="fade" style="animation-delay:1.40s"><rect x="590" y="376" width="96" height="30" rx="15" fill="#FFFFFF" stroke="#dcd9d2"/><text class="sans" x="638.0" y="396" text-anchor="middle" font-size="12" font-weight="600" fill="#0E0E0E">Teensy 4.1</text></g>
+  
+<g transform="translate(880,250)">
+  <circle class="glow" r="150" cy="20" fill="#E85D00" opacity="0.12" filter="url(#blur2)"/>
+  <!-- shelf unit -->
+  <g class="fade d6">
+    <rect x="178" y="-96" width="6" height="200" fill="#3a3a3a"/><rect x="286" y="-96" width="6" height="200" fill="#3a3a3a"/>
+    <rect x="172" y="-60" width="126" height="6" fill="#3a3a3a"/><rect x="172" y="30" width="126" height="6" fill="#3a3a3a"/>
+    <rect x="200" y="-20" width="48" height="50" rx="3" fill="#c89b5a" stroke="#8a6a3a"/>
+    <rect x="206" y="-12" width="20" height="20" fill="#fff"/><path d="M209 -9h4v4h-4zM219 -9h4v4h-4zM209 1h4v4h-4zM216 -2h2v2h-2zM218 1h4v4h-4z" fill="#111"/>
+    <rect x="256" y="-50" width="36" height="40" rx="3" fill="#c89b5a" opacity=".7"/>
+    <text class="mono" x="235" y="54" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#7a7a7a">SHELF_A</text>
+  </g>
+  <!-- camera cone -->
+  <path class="cone" d="M118,-4 L198,-26 L198,22 Z" fill="#E85D00" opacity=".14"/>
+  <rect class="scanline" x="196" y="-20" width="56" height="2" fill="#FF6B00"/>
+  <!-- floor -->
+  <ellipse cx="0" cy="106" rx="150" ry="8" fill="#0E0E0E" opacity=".06"/>
+  <path d="M-170,104 H330" stroke="#dcd9d2" stroke-width="1.5"/>
+  <!-- lift stack -->
+  <g class="lift"><path d="M-40,-20 L40,-70 M40,-20 L-40,-70" stroke="#E85D00" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="-45" r="4.5" fill="#0E0E0E"/><circle cx="-40" cy="-20" r="4.5" fill="#0E0E0E"/><circle cx="-40" cy="-70" r="4.5" fill="#0E0E0E"/><circle cx="40" cy="-20" r="4.5" fill="#0E0E0E"/><circle cx="40" cy="-70" r="4.5" fill="#0E0E0E"/><path d="M-40,-70 L40,-120 M40,-70 L-40,-120" stroke="#E85D00" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="-95" r="4.5" fill="#0E0E0E"/><circle cx="-40" cy="-70" r="4.5" fill="#0E0E0E"/><circle cx="-40" cy="-120" r="4.5" fill="#0E0E0E"/><circle cx="40" cy="-70" r="4.5" fill="#0E0E0E"/><circle cx="40" cy="-120" r="4.5" fill="#0E0E0E"/></g>
+  <g class="plat">
+    <rect x="-78" y="-138" width="156" height="18" rx="4" fill="#ECEAE4" stroke="#dcd9d2"/>
+    <rect x="-78" y="-124" width="156" height="4" fill="#E85D00"/>
+    <rect x="-16" y="-150" width="32" height="12" rx="3" fill="#3a3a3a"/>
+    <rect x="-7" y="-160" width="14" height="10" fill="#3a3a3a"/>
+    <rect x="-22" y="-196" width="44" height="36" rx="3" fill="#c89b5a" stroke="#8a6a3a"/>
+    <rect x="-16" y="-190" width="18" height="18" fill="#fff"/><path d="M-13 -187h4v4h-4zM-3 -187h4v4h-4zM-13 -177h4v4h-4zM-6 -180h2v2h-2zM-4 -177h4v4h-4z" fill="#111"/>
+    <path class="hose" d="M20,-146 C40,-146 44,-120 44,-100 S30,-60 30,-40" stroke="#7a7a7a" stroke-width="2.5" stroke-dasharray="4 4"/>
+  </g>
+  <!-- chassis -->
+  <rect x="-110" y="-20" width="220" height="92" rx="12" fill="#ECEAE4" stroke="#dcd9d2"/>
+  <rect x="-110" y="58" width="220" height="14" rx="6" fill="#E85D00"/>
+  <path d="M-20,8 l16,14 -16,14 -8,-8 8,-6 -8,-6z" fill="#E85D00"/>
+  <text class="sans" x="18" y="34" font-size="15" font-weight="900" letter-spacing="3" fill="#0E0E0E">NAVI<tspan fill="#E85D00">X</tspan>A</text>
+  <rect x="110" y="-10" width="14" height="14" rx="3" fill="#3a3a3a"/><circle cx="117" cy="-3" r="3.5" fill="#FF6B00"/>
+  <!-- wheels -->
+  <g transform="translate(-72,84)"><circle r="22" fill="#111" stroke="#dcd9d2" stroke-width="3"/><g class="wheel"><path d="M0,-14V14M-14,0H14M-10,-10L10,10M-10,10L10,-10" stroke="#7a7a7a" stroke-width="2"/></g><circle r="6" fill="#E85D00"/></g>
+  <g transform="translate(72,84)"><circle r="22" fill="#111" stroke="#dcd9d2" stroke-width="3"/><g class="wheel"><path d="M0,-14V14M-14,0H14M-10,-10L10,10M-10,10L10,-10" stroke="#7a7a7a" stroke-width="2"/></g><circle r="6" fill="#E85D00"/></g>
+  <!-- LiDAR mast + sweep -->
+  <rect x="-104" y="-70" width="6" height="50" fill="#3a3a3a"/>
+  <g transform="translate(-101,-78)">
+    <circle class="lidar-ring" r="46" stroke="#E85D00" stroke-opacity=".35" stroke-width="1" stroke-dasharray="3 7"/>
+    <g class="sweep"><path d="M0,0 L46,-16 A48,48 0 0 1 46,16 Z" fill="url(#sweep)"/></g>
+    <rect x="-12" y="-10" width="24" height="18" rx="4" fill="#111" stroke="#dcd9d2"/>
+    <circle cx="0" cy="-1" r="4" fill="#FF6B00"><animate attributeName="opacity" values="1;.3;1" dur="1s" repeatCount="indefinite"/></circle>
+  </g>
+</g>
+  <text class="mono fade d12" x="1160" y="420" text-anchor="end" font-size="12" fill="#7a7a7a">navixaa.vercel.app</text>
+  <rect class="bline" x="0" y="436" width="1200" height="4" fill="url(#line)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="439" rx="28" stroke="#dcd9d2"/>
+
+</svg>

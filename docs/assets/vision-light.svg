@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" fill="none" role="img" aria-label="Vision pipeline: YOLOv8 localisation, multi-decoder QR read and visual-servo centring">
+<title>Vision pipeline: YOLOv8 localisation, multi-decoder QR read and visual-servo centring</title>
+<style>
+.sans{font-family:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:"JetBrains Mono","Fira Code","Cascadia Code",Consolas,"Courier New",monospace}
+.fade{opacity:0;animation:fade .9s ease-out forwards}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.22,.7,.3,1) forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:0.12;transform:scale(1)}50%{opacity:0.26;transform:scale(1.08)}}
+@keyframes float{0%,100%{transform:translate(0,0)}25%{transform:translate(-14px,-18px)}50%{transform:translate(10px,-8px)}75%{transform:translate(-8px,14px)}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes shimmer{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;animation-iteration-count:1!important}}
+.d0{animation-delay:0.00s}.d1{animation-delay:0.12s}.d2{animation-delay:0.24s}.d3{animation-delay:0.36s}.d4{animation-delay:0.48s}.d5{animation-delay:0.60s}.d6{animation-delay:0.72s}.d7{animation-delay:0.84s}.d8{animation-delay:0.96s}.d9{animation-delay:1.08s}.d10{animation-delay:1.20s}.d11{animation-delay:1.32s}.d12{animation-delay:1.44s}.d13{animation-delay:1.56s}.d14{animation-delay:1.68s}.d15{animation-delay:1.80s}.d16{animation-delay:1.92s}.d17{animation-delay:2.04s}.d18{animation-delay:2.16s}.d19{animation-delay:2.28s}.d20{animation-delay:2.40s}.d21{animation-delay:2.52s}.d22{animation-delay:2.64s}.d23{animation-delay:2.76s}.d24{animation-delay:2.88s}.d25{animation-delay:3.00s}.d26{animation-delay:3.12s}.d27{animation-delay:3.24s}.d28{animation-delay:3.36s}.d29{animation-delay:3.48s}.d30{animation-delay:3.60s}.d31{animation-delay:3.72s}.d32{animation-delay:3.84s}.d33{animation-delay:3.96s}.d34{animation-delay:4.08s}.d35{animation-delay:4.20s}.d36{animation-delay:4.32s}.d37{animation-delay:4.44s}.d38{animation-delay:4.56s}.d39{animation-delay:4.68s}.flow{animation:dash 1.2s linear infinite}</style>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#dcd9d2" stroke-width="1"/></pattern></defs>
+
+<rect width="1100" height="300" rx="24" fill="#F5F4F0"/>
+<rect width="1100" height="300" rx="24" fill="url(#grid)" opacity="0.9"/>
+<text class="mono" x="25.0" y="62" font-size="10" letter-spacing="2" fill="#E85D00">READ CHAIN — SHELF_QR AND BOX_QR</text>
+<text class="mono" x="74.0" y="206" font-size="10" letter-spacing="2" fill="#E85D00">CENTRING LOOP — BOX_QR ONLY · NO CUP SERVO, THE WHOLE ROBOT TURNS</text>
+<path class="flow" d="M916.0,212 V188 H283.0 V152" stroke="#7a7a7a" stroke-width="1.5" stroke-dasharray="4 6" fill="none"/>
+<circle r="3" fill="#FF6B00"><animateMotion dur="2.4s" repeatCount="indefinite" path="M916.0,212 V188 H283.0 V152"/></circle>
+<path class="flow" d="M185.0,122.0 H203.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M363.0,122.0 H381.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M541.0,122.0 H559.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M719.0,122.0 H737.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M897.0,122.0 H915.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M294.0,242.0 H318.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M538.0,242.0 H562.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/><path class="flow" d="M782.0,242.0 H806.0" stroke="#E85D00" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="4 6"/>
+<circle r="3" fill="#FF6B00"><animateMotion dur="1s" begin="0.00s" repeatCount="indefinite" path="M185.0,122.0 H203.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1s" begin="0.17s" repeatCount="indefinite" path="M363.0,122.0 H381.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1s" begin="0.34s" repeatCount="indefinite" path="M541.0,122.0 H559.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1s" begin="0.51s" repeatCount="indefinite" path="M719.0,122.0 H737.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1s" begin="0.68s" repeatCount="indefinite" path="M897.0,122.0 H915.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1.1s" begin="0.00s" repeatCount="indefinite" path="M294.0,242.0 H318.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1.1s" begin="0.20s" repeatCount="indefinite" path="M538.0,242.0 H562.0"/></circle><circle r="3" fill="#FF6B00"><animateMotion dur="1.1s" begin="0.40s" repeatCount="indefinite" path="M782.0,242.0 H806.0"/></circle>
+
+<g class="rise" style="animation-delay:0.30s">
+  <rect x="25.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="105.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Astra Pro</text>
+  <text class="mono" x="105.0" y="136" text-anchor="middle" font-size="9" fill="#555555">RGB 640×480 · depth optional</text>
+</g>
+<g class="rise" style="animation-delay:0.42s">
+  <rect x="203.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="283.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">YOLOv8</text>
+  <text class="mono" x="283.0" y="136" text-anchor="middle" font-size="9" fill="#555555">localise box · QR · barcode</text>
+</g>
+<g class="rise" style="animation-delay:0.54s">
+  <rect x="381.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="461.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Enhance</text>
+  <text class="mono" x="461.0" y="136" text-anchor="middle" font-size="9" fill="#555555">crop · upscale · CLAHE</text>
+</g>
+<g class="rise" style="animation-delay:0.66s">
+  <rect x="559.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="639.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Decode</text>
+  <text class="mono" x="639.0" y="136" text-anchor="middle" font-size="9" fill="#555555">OpenCV QR → pyzbar → full frame</text>
+</g>
+<g class="rise" style="animation-delay:0.78s">
+  <rect x="737.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="817.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Consensus</text>
+  <text class="mono" x="817.0" y="136" text-anchor="middle" font-size="9" fill="#555555">same value N frames</text>
+</g>
+<g class="rise" style="animation-delay:0.90s">
+  <rect x="915.0" y="92" width="160" height="60" rx="14" fill="#FFFFFF" stroke="#E85D00"/>
+  <text class="sans" x="995.0" y="118" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">/vision/result</text>
+  <text class="mono" x="995.0" y="136" text-anchor="middle" font-size="9" fill="#555555">OK &lt;sku> | FAIL</text>
+</g>
+<g class="rise" style="animation-delay:1.10s">
+  <rect x="74.0" y="212" width="220" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="184.0" y="238" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Pixel offset</text>
+  <text class="mono" x="184.0" y="256" text-anchor="middle" font-size="9" fill="#555555">box centre vs frame centre</text>
+</g>
+<g class="rise" style="animation-delay:1.22s">
+  <rect x="318.0" y="212" width="220" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="428.0" y="238" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">P-controller</text>
+  <text class="mono" x="428.0" y="256" text-anchor="middle" font-size="9" fill="#555555">angular.z · EMA smoothing · clamp</text>
+</g>
+<g class="rise" style="animation-delay:1.34s">
+  <rect x="562.0" y="212" width="220" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="672.0" y="238" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">/cmd_vel_vision</text>
+  <text class="mono" x="672.0" y="256" text-anchor="middle" font-size="9" fill="#555555">twist_mux priority 50</text>
+</g>
+<g class="rise" style="animation-delay:1.46s">
+  <rect x="806.0" y="212" width="220" height="60" rx="14" fill="#FFFFFF" stroke="#dcd9d2"/>
+  <text class="sans" x="916.0" y="238" text-anchor="middle" font-size="13" font-weight="800" fill="#0E0E0E">Robot rotates</text>
+  <text class="mono" x="916.0" y="256" text-anchor="middle" font-size="9" fill="#555555">cup over box → OK</text>
+</g>
+<text class="mono" x="1060" y="286" text-anchor="end" font-size="9.5" letter-spacing="1.5" fill="#7a7a7a">DEPTH_ENABLED=0 → RGB-ONLY FALLBACK · MISSION NEVER USES VISION DEPTH</text>
+<rect x=".5" y=".5" width="1099" height="299" rx="24" stroke="#dcd9d2"/>
+
+</svg>

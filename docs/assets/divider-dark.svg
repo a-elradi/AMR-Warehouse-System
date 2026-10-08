@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="14" viewBox="0 0 1200 14" fill="none" role="img" aria-label="divider">
+<title>divider</title>
+<style>
+.sans{font-family:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:"JetBrains Mono","Fira Code","Cascadia Code",Consolas,"Courier New",monospace}
+.fade{opacity:0;animation:fade .9s ease-out forwards}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.22,.7,.3,1) forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:0.20;transform:scale(1)}50%{opacity:0.42;transform:scale(1.08)}}
+@keyframes float{0%,100%{transform:translate(0,0)}25%{transform:translate(-14px,-18px)}50%{transform:translate(10px,-8px)}75%{transform:translate(-8px,14px)}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes shimmer{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;animation-iteration-count:1!important}}
+.d0{animation-delay:0.00s}.d1{animation-delay:0.12s}.d2{animation-delay:0.24s}.d3{animation-delay:0.36s}.d4{animation-delay:0.48s}.d5{animation-delay:0.60s}.d6{animation-delay:0.72s}.d7{animation-delay:0.84s}.d8{animation-delay:0.96s}.d9{animation-delay:1.08s}.d10{animation-delay:1.20s}.d11{animation-delay:1.32s}.d12{animation-delay:1.44s}.d13{animation-delay:1.56s}.d14{animation-delay:1.68s}.d15{animation-delay:1.80s}.d16{animation-delay:1.92s}.d17{animation-delay:2.04s}.d18{animation-delay:2.16s}.d19{animation-delay:2.28s}.d20{animation-delay:2.40s}.d21{animation-delay:2.52s}.d22{animation-delay:2.64s}.d23{animation-delay:2.76s}.d24{animation-delay:2.88s}.d25{animation-delay:3.00s}.d26{animation-delay:3.12s}.d27{animation-delay:3.24s}.d28{animation-delay:3.36s}.d29{animation-delay:3.48s}.d30{animation-delay:3.60s}.d31{animation-delay:3.72s}.d32{animation-delay:3.84s}.d33{animation-delay:3.96s}.d34{animation-delay:4.08s}.d35{animation-delay:4.20s}.d36{animation-delay:4.32s}.d37{animation-delay:4.44s}.d38{animation-delay:4.56s}.d39{animation-delay:4.68s}.sh{animation:shimmer 5s ease-in-out infinite}</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FF6B00" stop-opacity="0"/><stop offset=".5" stop-color="#FF6B00"/><stop offset="1" stop-color="#FF6B00" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="6" width="1200" height="1" fill="#2a2a2a"/><rect class="sh" x="0" y="5" width="420" height="3" rx="1.5" fill="url(#g)"/>
+</svg>

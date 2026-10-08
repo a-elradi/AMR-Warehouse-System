@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" fill="none" role="img" aria-label="Navigate The Future">
+<title>Navigate The Future</title>
+<style>
+.sans{font-family:"Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.mono{font-family:"JetBrains Mono","Fira Code","Cascadia Code",Consolas,"Courier New",monospace}
+.fade{opacity:0;animation:fade .9s ease-out forwards}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.22,.7,.3,1) forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:0.20;transform:scale(1)}50%{opacity:0.42;transform:scale(1.08)}}
+@keyframes float{0%,100%{transform:translate(0,0)}25%{transform:translate(-14px,-18px)}50%{transform:translate(10px,-8px)}75%{transform:translate(-8px,14px)}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes shimmer{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-delay:0s!important;animation-iteration-count:1!important}}
+.d0{animation-delay:0.00s}.d1{animation-delay:0.12s}.d2{animation-delay:0.24s}.d3{animation-delay:0.36s}.d4{animation-delay:0.48s}.d5{animation-delay:0.60s}.d6{animation-delay:0.72s}.d7{animation-delay:0.84s}.d8{animation-delay:0.96s}.d9{animation-delay:1.08s}.d10{animation-delay:1.20s}.d11{animation-delay:1.32s}.d12{animation-delay:1.44s}.d13{animation-delay:1.56s}.d14{animation-delay:1.68s}.d15{animation-delay:1.80s}.d16{animation-delay:1.92s}.d17{animation-delay:2.04s}.d18{animation-delay:2.16s}.d19{animation-delay:2.28s}.d20{animation-delay:2.40s}.d21{animation-delay:2.52s}.d22{animation-delay:2.64s}.d23{animation-delay:2.76s}.d24{animation-delay:2.88s}.d25{animation-delay:3.00s}.d26{animation-delay:3.12s}.d27{animation-delay:3.24s}.d28{animation-delay:3.36s}.d29{animation-delay:3.48s}.d30{animation-delay:3.60s}.d31{animation-delay:3.72s}.d32{animation-delay:3.84s}.d33{animation-delay:3.96s}.d34{animation-delay:4.08s}.d35{animation-delay:4.20s}.d36{animation-delay:4.32s}.d37{animation-delay:4.44s}.d38{animation-delay:4.56s}.d39{animation-delay:4.68s}.orb1{animation:float 12s ease-in-out infinite}.orb2{animation:float 14s ease-in-out infinite reverse}.wave{animation:wv 9s linear infinite}.wave2{animation:wv 6s linear infinite}@keyframes wv{to{transform:translateX(-800px)}}</style>
+<defs><clipPath id="f"><rect width="1200" height="220" rx="28"/></clipPath><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#2a2a2a" stroke-width="1"/></pattern><filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter></defs>
+
+<g clip-path="url(#f)">
+  <rect width="1200" height="220" fill="#0a0a0a"/>
+  <rect width="1200" height="220" fill="url(#grid)" opacity="0.55"/>
+  <circle class="orb1" cx="180" cy="220" r="200" fill="#FF6B00" opacity="0.20" filter="url(#blur)"/>
+  <circle class="orb2" cx="1020" cy="0" r="220" fill="#FF9A40" opacity="0.20" filter="url(#blur)"/>
+  <text class="sans fade d1" x="600" y="64" text-anchor="middle" font-size="11" font-weight="800" letter-spacing="5" fill="#FF6B00">UNIVERSITY OF TECHNOLOGY BAHRAIN · CAPSTONE 2026</text>
+  <text class="sans rise d3" x="600" y="122" text-anchor="middle" font-size="48" font-weight="900" letter-spacing="-1" fill="#ffffff">Navigate The Future.</text>
+  <text class="sans fade d5" x="600" y="156" text-anchor="middle" font-size="15" fill="#a3a3a3">Built by four engineers across mechatronics and informatics: navigation, vision, firmware and payload.</text>
+  <path class="wave" d="M0,196 C150,176 250,216 400,196 S650,176 800,196 S1050,216 1200,196 S1450,176 1600,196 S1850,216 2000,196 S2250,176 2400,196 V220 H0 Z" fill="#FF6B00" opacity=".22"/>
+  <path class="wave2" d="M0,204 C150,188 250,220 400,204 S650,188 800,204 S1050,220 1200,204 S1450,188 1600,204 S1850,220 2000,204 S2250,188 2400,204 V220 H0 Z" fill="#FF9A40" opacity=".3"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="219" rx="28" stroke="#2a2a2a"/>
+
+</svg>
